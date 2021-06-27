@@ -1,0 +1,27 @@
+<ion-view
+        can-swipe-back="true"
+        hide-nav-bar="true"
+        cache-view="false">
+    <ion-content>
+        <div class="index_global_div" ng-controller="indexCtrl">
+            <ion-slide-box slide-interval="slideInterval"
+                           active-slide="myActiveSlide">
+                <ion-slide>
+                    <div class="box index_img_one">
+                        <div class="index_btn_next" ui-sref="home">跳过</div>
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box index_img_two">
+                        <div class="index_btn_next" ui-sref="home">跳过</div>
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box index_img_three">
+                        <button class="button button-positive index_btn_nextPage" ui-sref="home">开启手机银行</button>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+<!--关于我们页模板-->
+<!---->
+<ion-view can-swipe-back="true"
+          hide-back-button="true"
+          hide-nav-bar="true"
+          ng-controller="aboutMyCtrl">
+    <ion-header-bar>
+        <div class="myInfo_aboutMy">
+            <div class="bar bar-header bar-light">
+                <div class="tabs tabs-icon-top">
+                    <h1 class="title header_title">关于我们</h1>
+                    <a class="tab-item myInfo_aboutMy_icon_left" ui-sref="home"
+                       style="height: 100%;width: 44px;left: 0;z-index: 2">
+                        <i class="icon ion-ios-arrow-back myInfo_aboutMy_text_weight"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </ion-header-bar>
+
+    <ion-content>
+        <div class="myInfo_aboutMy_body">
+            <div class="myInfo_aboutMy_body_div">
+                <p>当前版本：{{ myAppVersion }}</p>
+                <p>作者：软件1901柳君康</p>
+                <p>采用ionic和ionic路由制作，使用HBuilder X的 5+ app
+                    项目制作并打包成为Android的安装包（只是利用了5+app的打包，并未调用安卓API），项目里95%的icon图标均来源于阿里的图标库</p>
+                <div>
+                    <img src="./img/filelist.png" alt="" width="100%">
+                </div>
+                <p>项目已上传github</p>
+            </div>
+        </div>
+        </div>
+    </ion-content>
+</ion-view>
