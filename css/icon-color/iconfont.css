@@ -2,9 +2,9 @@
   font-family: "colorIcon"; /* Project id 2610264 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1624690625284') format('woff2'),
-       url('iconfont.woff?t=1624690625284') format('woff'),
-       url('iconfont.ttf?t=1624690625284') format('truetype');
+       url('iconfont.woff2?t=1624862066210') format('woff2'),
+       url('iconfont.woff?t=1624862066210') format('woff'),
+       url('iconfont.ttf?t=1624862066210') format('truetype');
 }
 
 .colorIcon {
@@ -13,6 +13,18 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.color-xin:before {
+  content: "\e603";
+}
+
+.color-remen:before {
+  content: "\e62c";
+}
+
+.color-quxiao2:before {
+  content: "\e639";
 }
 
 .color-licai:before {

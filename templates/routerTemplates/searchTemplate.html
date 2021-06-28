@@ -1,0 +1,49 @@
+<!--没有写的页-->
+<ion-view cache="false" ng-controller="searchCtrl">
+    <ion-header-bar>
+        <div class="header_search">
+            <label class="item-input-wrapper bg_none">
+                <i class="iconfont icon-sousuo"></i>
+                &nbsp;&nbsp;
+                <input type="text" placeholder="请输入" class="header_input bg_none" ng-model="searchInput">
+                <i class="colorIcon color-quxiao2" style="font-size: 20px"></i>
+            </label>
+        </div>
+        <a ui-sref="home" class="button">
+            取消
+        </a>
+    </ion-header-bar>
+    <ion-content>
+        <div class="search_content">
+            <span class="search_content_title">搜索推荐</span>
+            <div class="search_content_div1">
+                <span>
+                    <span>理财</span>
+                    <i class="colorIcon color-remen"></i>
+                </span>
+                <span>
+                    <span>本地优惠</span>
+                    <i class="colorIcon color-remen"></i>
+                </span>
+                <span>
+                    <span>农银智融</span>
+                    <i class="colorIcon color-remen"></i>
+                </span>
+            </div>
+            <div class="search_content_div2">
+                <span>
+                    <span>我要办卡</span>
+                    <i class="colorIcon color-remen"></i>
+                </span>
+                <span>
+                    <span>农村快e宝</span>
+                    <i class="colorIcon color-xin"></i>
+                </span>
+                <span>
+                    <span>信用卡</span>
+                    <i class="colorIcon color-remen"></i>
+                </span>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

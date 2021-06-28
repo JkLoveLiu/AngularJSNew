@@ -38,6 +38,10 @@ ionicApp.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvid
             url: '/notPage',
             templateUrl: './templates/routerTemplates/pageNotWrite.html',
         })
+        .state('search', {
+            url: '/search',
+            templateUrl: './templates/routerTemplates/searchTemplate.html',
+        })
     $urlRouterProvider.otherwise('/index');
 
 })

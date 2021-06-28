@@ -1,0 +1,53 @@
+.header_search {
+    line-height: 44px;
+    border: solid 1px #cecece;
+    width: 300px;
+    height: 34px;
+    margin-top: 2px;
+    border-radius: 100px;
+}
+
+.header_search .header_input {
+    height: 32px !important;
+    width: 237px;
+}
+.search_content{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.search_content .search_content_title{
+    display: block;
+    position: absolute;
+    top: 10px;
+    font-family: "Microsoft YaHei UI", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.search_content .search_content_div1{
+    position: absolute;
+    top: 55px;
+    font-size: 12px;
+}
+.search_content .search_content_div2{
+    position: absolute;
+    top: 100px;
+    font-size: 12px;
+}
+.search_content .search_content_div1>span{
+    height: 30px;
+    width: auto;
+    background-color: #cccccc;
+    margin: 0 5px;
+    padding: 6px 15px;
+    border-radius: 55px;
+}
+.search_content .search_content_div2>span{
+    height: 30px;
+    width: auto;
+    background-color: #cccccc;
+    margin: 0 5px;
+    padding: 6px 15px;
+    border-radius: 55px;
+}
