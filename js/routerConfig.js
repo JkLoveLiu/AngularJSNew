@@ -1,4 +1,4 @@
-ionicApp.config(function ($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
+ionicApp.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
     // 解决Android里，tabs上浮，位于上面的情况
     $ionicConfigProvider.platform.ios.tabs.style('standard');
     $ionicConfigProvider.platform.ios.tabs.position('bottom');
@@ -13,10 +13,12 @@ ionicApp.config(function ($stateProvider, $urlRouterProvider,$ionicConfigProvide
 
     $stateProvider
         .state('index', {
+            cache: false,
             url: '/index',
             templateUrl: './templates/routerTemplates/indexTemplate.html'
         })
         .state('home', {
+            cache: true,
             url: '/home',
             templateUrl: './templates/routerTemplates/homeTemplate.html'
         })

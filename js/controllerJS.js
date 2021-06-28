@@ -178,3 +178,7 @@ ionicApp.controller('myNotesCtrl', function ($scope, $http) {
         })
     }
 })
+
+ionicApp.controller('notPageCtrl', function ($scope,$stateParams) {
+
+})

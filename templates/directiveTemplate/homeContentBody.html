@@ -1,34 +1,34 @@
 <div class="row content_body_icon1">
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-xinyongqia content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">信用卡</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-cunkuan3 content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">存款</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-remenhuodong2 content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">热门活动</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-shenghuojiaofei content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">生活缴费</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-dkw_daikuan- content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">贷款</p>
@@ -37,35 +37,35 @@
 </div>
 <div class="row content_body_icon2">
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-licaidingdan content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">理财产品</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-zhinengjijin content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">基金</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-Positioning_icon content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">本地优惠</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-ETC content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">ETC办理</p>
         </a>
     </div>
     <div class="col">
-        <a href="#">
+        <a ui-sref="notPage">
             <i class="colorIcon color-quanbu content_body_icon_size"></i>
             <div style="height: 5px"></div>
             <p class="content_body_icon_text">全部</p>
@@ -79,7 +79,7 @@
     <div class="body_news_dian"></div>
     <span class="body_news_content">
                                 <span class="news_content_move" ng-style="news_content_move">
-                                    <a href="#" class="body_news_content_info"
+                                    <a ui-sref="notPage" class="body_news_content_info"
                                        ng-repeat="item in dataNews">
                                         {{ item }}
                                     </a>
@@ -103,7 +103,7 @@
                 auto-play="true"
                 slide-interval="2500">
             <ion-slide ng-repeat="item in homeNewsImg">
-                <div class="box">
+                <div class="box" ui-sref="notPage">
                     <img src={{item}} alt="">
                 </div>
             </ion-slide>
@@ -111,7 +111,7 @@
     </div>
 </div>
 <div class="content_body_footer">
-    <a href="#">
+    <a ui-sref="notPage">
         <div>
             <span>金融小秘书</span>
             <i class="icon ion-chevron-right"></i>
@@ -139,13 +139,15 @@
     <div class="home_newsInfo_div">
         <span>资讯</span>
         <div class="home_newsInfo_content" ng-repeat="item in newsFooterInfo">
-            <div class="home_newsInfo_left">
-                <p>{{item.newsTitle}}</p>
-                <span>{{ item.date }}</span>
-            </div>
-            <div class="home_newsInfo_right">
-                <img src={{item.imgSrc}} alt="">
-            </div>
+            <a ui-sref="notPage">
+                <div class="home_newsInfo_left">
+                    <p>{{item.newsTitle}}</p>
+                    <span>{{ item.date }}</span>
+                </div>
+                <div class="home_newsInfo_right">
+                    <img src={{item.imgSrc}} alt="">
+                </div>
+            </a>
         </div>
     </div>
 </div>
